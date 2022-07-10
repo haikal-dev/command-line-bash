@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo mount --rbind $1 ~/shares
+sudo mount --rbind $1 ~/shared
