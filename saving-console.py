@@ -9,11 +9,11 @@ bsn = (10 / 15) * saving
 
 print()
 
-print('Your total saving on this week is: ', round(saving,2))
+print('Your total saving on this week is: ', "{:,}".format(round(saving,2)))
 
 print()
 
-print('Tabung Haji 5%: ', round(th,2))
-print('BSN 10%: ', round(bsn,2))
+print('Tabung Haji 5%: ', "{:,}".format(round(th,2)))
+print('BSN 10%: ', "{:,}".format(round(bsn,2)))
 
 print()
