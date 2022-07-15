@@ -1,7 +1,7 @@
 #!/bin/env python3
 
 print('Please enter your current balance (RM):')
-balance = input('#: ')
+balance = input('# > ')
 
 saving = (15 / 100) * float(balance)
 th = (5 / 15) * saving
@@ -13,5 +13,7 @@ print('Your total saving on this week is: ', round(saving,2))
 
 print()
 
-print('Tabung Haji: ', round(th,2))
-print('BSN: ', round(bsn,2))
+print('Tabung Haji 5%: ', round(th,2))
+print('BSN 10%: ', round(bsn,2))
+
+print()
